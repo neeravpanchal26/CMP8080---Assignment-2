@@ -1,0 +1,12 @@
+/workspaces/CMP8080---Assignment-3/TodoList_Models/bin/Debug/net7.0/TodoList_Models.deps.json
+/workspaces/CMP8080---Assignment-3/TodoList_Models/bin/Debug/net7.0/TodoList_Models.dll
+/workspaces/CMP8080---Assignment-3/TodoList_Models/bin/Debug/net7.0/TodoList_Models.pdb
+/workspaces/CMP8080---Assignment-3/TodoList_Models/obj/Debug/net7.0/TodoList_Models.csproj.AssemblyReference.cache
+/workspaces/CMP8080---Assignment-3/TodoList_Models/obj/Debug/net7.0/TodoList_Models.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/CMP8080---Assignment-3/TodoList_Models/obj/Debug/net7.0/TodoList_Models.AssemblyInfoInputs.cache
+/workspaces/CMP8080---Assignment-3/TodoList_Models/obj/Debug/net7.0/TodoList_Models.AssemblyInfo.cs
+/workspaces/CMP8080---Assignment-3/TodoList_Models/obj/Debug/net7.0/TodoList_Models.csproj.CoreCompileInputs.cache
+/workspaces/CMP8080---Assignment-3/TodoList_Models/obj/Debug/net7.0/TodoList_Models.dll
+/workspaces/CMP8080---Assignment-3/TodoList_Models/obj/Debug/net7.0/refint/TodoList_Models.dll
+/workspaces/CMP8080---Assignment-3/TodoList_Models/obj/Debug/net7.0/TodoList_Models.pdb
+/workspaces/CMP8080---Assignment-3/TodoList_Models/obj/Debug/net7.0/ref/TodoList_Models.dll
