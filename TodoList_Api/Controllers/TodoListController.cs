@@ -50,5 +50,41 @@ namespace TodoListAPI.Controllers
 
             return CreatedAtAction(nameof(GetTodoItem), new { id = todoItem.Id }, todoItem);
         }
+
+        [HttpPost("complete")]
+        public async Task<ActionResult<TodoItem>> CompleteTodoItem(int id)
+        {
+            var todoItem = await _context.TodoItems.FindAsync(id);
+
+            if (todoItem == null)
+            {
+                return NotFound();
+            }
+
+            todoItem.CompletedDate = DateTime.Now;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!TodoItemExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return Ok(todoItem);
+        }
+
+        private bool TodoItemExists(int id)
+        {
+            return _context.TodoItems.Any(e => e.Id == id);
+        }
     }
 }
