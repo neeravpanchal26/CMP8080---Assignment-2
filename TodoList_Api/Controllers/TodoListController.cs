@@ -28,5 +28,18 @@ namespace TodoListAPI.Controllers
 
             return todoItems;
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<TodoItem>> GetTodoItem(int id)
+        {
+            var todoItem = await _context.TodoItems.FindAsync(id);
+
+            if (todoItem == null)
+            {
+                return NotFound();
+            }
+
+            return todoItem;
+        }
     }
 }
